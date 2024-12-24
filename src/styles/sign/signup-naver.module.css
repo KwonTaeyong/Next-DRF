@@ -1,0 +1,24 @@
+.NaverButton {
+    background-color: #00b869;
+    border: 2px solid white;
+    padding: 8px 16px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    width: 50%;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease, color 0.3s ease, transform 0.3s ease, border 0.3s ease, padding 0.3s ease;
+    margin-top: 10px;
+    font-family: IBM_Plex_Sans;
+    font-weight: bold;
+    vertical-align: center;
+    border-radius: 5px;
+}
+
+.NaverButton:hover {
+    color: #00b869;
+    background-color: #fff;
+     border: 2px solid #00b869;
+}
+

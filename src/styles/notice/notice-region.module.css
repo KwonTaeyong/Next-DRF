@@ -1,0 +1,23 @@
+.GroupContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px; /* 버튼 간의 간격 조절 */
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.GroupContainer button {
+    transition: background 0.3s ease, color 0.3s ease, transform 0.3s ease, border 0.3s ease, padding 0.3s ease;
+    border: 2px solid #319795;
+    background: #319795;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    flex-grow: 1;
+}
+
+.GroupContainer button:hover {
+    background: #fff;
+    color: #319795;
+}

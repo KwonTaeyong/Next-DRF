@@ -1,0 +1,81 @@
+.ModalContainer {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    height: auto;
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.closeButton {
+    position: absolute;
+    top: 20px;
+    right: 17px;
+    cursor: pointer;
+    background-color: white;
+    border: none;
+}
+
+.ModalContainer h2 {
+    color: #319795;
+
+}
+
+.ModalContainer span {
+    font-weight: bold;
+    color: #4a4a4a;
+}
+
+
+.ModalContainer button {
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: block; /* 변경된 부분 */
+    width: 100%; /* 변경된 부분 */
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease, color 0.3s ease, transform 0.3s ease, border 0.3s ease, padding 0.2s ease;
+    font-family: IBM_Plex_Sans;
+    font-weight: bold;
+    vertical-align: center;
+    border-radius: 5px;
+}
+
+.ModalContainer a {
+    text-decoration: none;
+}
+
+.ModalContainer button svg {
+    float: left;
+}
+
+
+.KakaoButton {
+    background-color: #F7E317;
+    text-decoration: #000;
+    border: 2px solid #F7E317;
+}
+
+.KakaoButton:hover {
+    color: #F7E317;
+    background-color: #fff;
+}
+
+
+.NaverButton {
+    background-color: #00b869;
+    text-decoration: #000;
+    color: white;
+    border: 2px solid #00b869;
+    margin-top: 10px;
+}
+
+.NaverButton:hover {
+    color: #00b869;
+    background-color: #fff;
+}
+

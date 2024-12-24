@@ -1,0 +1,80 @@
+.MainText {
+    font-size: 1.5em;
+    color: #4A4A4A;
+    text-align: center;
+}
+
+.SubText {
+    font-size: 1em;
+    color: #B4B4B8;
+    text-align: center;
+}
+
+
+.UserContainer {
+    margin: 0 auto;
+    text-align: left;
+    border-radius: 10px;
+    width: 60%;
+}
+
+.LogoText {
+    color: #319795;
+}
+
+.formContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.formContainer > * {
+    margin-bottom: 15px;
+}
+
+
+.ButtonContainer {
+    margin: 0 auto;
+    border-radius: 10px;
+    width: 60%;
+}
+
+.ButtonContainer button svg {
+    float: left;
+}
+
+.Submitbutton {
+    background-color: #319795;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    border: 2px solid #319795;
+    border-radius: 5px;
+    font-family: 'IBM_Plex_Sans', sans-serif;
+    font-weight: bold;
+}
+
+.Submitbutton:hover {
+    background-color: white;
+    border: 2px solid #319795;
+    color: #319795;
+}
+
+
+.Signbutton {
+    background-color: #87A922;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    border: 2px solid #87A922;
+    border-radius: 5px;
+    font-family: 'IBM_Plex_Sans', sans-serif;
+    font-weight: bold;
+}
+
+.Signbutton:hover {
+    background-color: white;
+    color: #87A922;
+    border: 2px solid #87A922;
+}

@@ -1,0 +1,27 @@
+.scrolltop {
+    position: fixed;
+    bottom: 60px;
+    right: 20px;
+    background-color: #319795;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: opacity 0.3s;
+    z-index: 999;
+    align-items: center;
+}
+
+.scrolltop:hover {
+    opacity: 0.8;
+}
+
+@media (max-width: 600px) {
+    .scrolltop {
+        bottom: 110px;
+    }
+}

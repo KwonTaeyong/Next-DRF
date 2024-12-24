@@ -1,0 +1,17 @@
+.Wapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding : 15px;
+    margin-top: 50px;
+}
+
+.Icon {
+    font-size: 6rem;
+    color: #FF204E;
+}
+
+.Text {
+
+    font-size: 30px;
+}

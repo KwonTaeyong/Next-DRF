@@ -1,0 +1,42 @@
+.homebutton {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap; /* 버튼이 넘치면 줄 바꿈 */
+    margin-top: 20px;
+}
+
+.homebutton li {
+    width: calc(48% - 10px); /* 반응형으로 2개씩 정렬되도록 수정 */
+    height: 50px;
+    background-color: #319795;
+    border-radius: 10px;
+    border: 2px solid #319795;
+    color: #fff;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: border-color 0.2s;
+    margin: 5px;
+    font-weight: bold;
+}
+
+.homebutton span {
+    margin-right: 10px;
+}
+
+.homebutton li:hover {
+    background-color: #FFFFFF;
+    border: 2px solid #319795;
+    color: #319795;
+}
+
+@media (min-width: 601px) {
+    .homebutton li {
+        font-size: 16px;
+    }
+}

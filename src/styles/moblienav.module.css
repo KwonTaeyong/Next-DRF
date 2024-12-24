@@ -1,0 +1,23 @@
+.BottomNav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    padding: 15px 0px;
+    text-align: center;
+    box-shadow: 0px -15px 20px -20px rgba(0, 0, 0, 0.45);
+    z-index: 1000; /* 다른 요소 위에 표시되도록 설정 */
+}
+
+.BottomNav span {
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+@media (min-width: 601px) {
+    .BottomNav {
+        display: none; /* 601px 이상인 경우 BottomNav를 숨깁니다. */
+    }
+}

@@ -1,0 +1,43 @@
+
+.Shadow {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.UserContainer {
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left;
+    border-radius: 10px;
+}
+
+.MainText {
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: #4a4a4a;
+}
+
+.formContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.formContainer > * {
+    margin-bottom: 20px;
+}
+
+.UserContainer button {
+    background-color: #319795;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    font-family: 'IBM_Plex_Sans', sans-serif;
+    font-weight: bold;
+}
+
+.UserContainer button:hover {
+    background-color: #2F7C7AFF;
+}

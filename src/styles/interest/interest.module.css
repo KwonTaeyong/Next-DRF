@@ -1,0 +1,14 @@
+.MainContainer {
+    margin: 0 auto;
+}
+
+.MainText {
+    font-size: 26px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #4a4a4a;
+}
+
+.TabContainer {
+    margin-top: 40px;
+}

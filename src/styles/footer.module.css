@@ -1,0 +1,35 @@
+
+.footer {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: white; /* 배경색 변경 */
+    color: #4A4A4A; /* 글자색 변경 */
+    border-top: 2px solid #319795;
+    padding: 20px 10px; /* 상하 여백 증가 및 좌우 여백 추가 */
+    display: flex; /* 로고와 텍스트를 나란히 배치하기 위해 Flexbox 사용 */
+    flex-direction: column; /* 세로 방향으로 정렬 */
+    justify-content: center; /* 세로 중앙 정렬 */
+    align-items: center; /* 가로 중앙 정렬 */
+    text-align: center; /* 텍스트 가운데 정렬 */
+}
+
+.footer p {
+    font-size: 0.9em; /* 폰트 사이즈 조정 */
+    font-weight: bold;
+    /*font-family: var(--font-googleIBM_Plex_Sans);*/
+    margin: 10px 0 0; /* 상단 마진 추가 */
+    line-height: 1.5; /* 줄 간격 설정 */
+    float: left;
+}
+
+.footer img {
+    width: 100px; /* 로고 크기 조정 */
+    float: left;
+}
+
+@media (max-width: 600px) {
+    .footer {
+        display: none;
+    }
+}

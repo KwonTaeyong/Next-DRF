@@ -1,0 +1,40 @@
+.codeFieldContainer {
+    display: flex;
+    align-items: center; /* 세로 가운데 정렬 */
+    gap: 10px; /* TextField와 버튼 사이의 간격 */
+
+}
+
+.checkCodeContainer {
+    position: relative;
+    display: inline-flex; /* 인라인 플렉스로 배치 */
+    width: 100%;
+    margin-top: 15px;
+}
+
+.checkCodeContainer button {
+    position: absolute; /* 절대 위치 */
+    top: 50%; /* 상단 정렬 */
+    right: 10px; /* 우측 여백 조정 */
+    transform: translateY(-50%); /* 수직 가운데 정렬 */
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #B4B4B8;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: 'IBM_Plex_Sans', sans-serif;
+}
+
+.checkCodeContainer button:hover {
+    background-color: #319795;
+}
+
+
+.timerContainer {
+    color: red;
+    font-weight: bold;
+    margin-top: 5px;
+}

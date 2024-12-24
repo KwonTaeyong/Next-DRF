@@ -1,0 +1,30 @@
+.TopNav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #FFFFFF; /* 변경된 백그라운드 색상 */
+    padding: 15px 0px;
+    text-align: center;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1); /* 변경된 그림자 스타일 */
+    z-index: 1000; /* 다른 요소 위에 표시되도록 설정 */
+    color: #FFFFFF;
+    height: 40px;
+}
+
+.TopNav span {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.TopNav img {
+    height: 45px;
+    width: 70px;
+}
+
+@media (min-width: 601px) {
+    .TopNav {
+        display: none; /* 601px 이상인 경우 BottomNav를 숨깁니다. */
+    }
+}

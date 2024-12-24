@@ -1,0 +1,33 @@
+.ModalContainer {
+    position: fixed;
+    bottom: 5%;
+    right: 2%;
+    background-color: white;
+    height: auto;
+    width: 250px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.closeButton {
+    position: absolute;
+    top: 20px;
+    right: 17px;
+    cursor: pointer;
+    background-color: white;
+    border: none;
+}
+
+.title {
+    font-size: 15px;
+    color: #319795;
+    font-weight: bold;
+}
+
+.text {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: bold;
+}

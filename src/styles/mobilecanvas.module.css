@@ -1,0 +1,38 @@
+.CanvasContainer {
+     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    height: 210px;
+    margin-top: 10px;
+}
+
+.IconContainer {
+    flex: 0 0 calc(33.33% - 20px); /* 한 행에 3개씩 배치되도록 */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.IconContainer a {
+    text-decoration: none;
+}
+
+.IconContainer button {
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    color: #FFFFFF;
+    background-color: #DDDDDD;
+    border: 2px solid #DDDDDD;
+}
+
+.IconContainer span {
+    color: #4a4a4a;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    margin-top: 5px;
+}
+

@@ -1,0 +1,25 @@
+.StyledTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.StyledTable thead {
+    background-color: #319795; /* 헤더 색상 */
+    color: white; /* 헤더 텍스트 색상 */
+}
+
+.StyledTable th {
+    border: 1px solid #319795; /* 테두리 색상 */
+    padding: 12px;
+    text-align: left;
+}
+
+.Styledtr:hover {
+    background-color: #f0f0f0;
+}
+
+.StyledTable td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    cursor: pointer;
+}
